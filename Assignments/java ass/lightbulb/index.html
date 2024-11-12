@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>light up the world</h1>
+
+    <div>
+        <img src="lightbulb.png" alt="" id="bulb">
+    </div>
+
+    <button onclick="switchOn()" style="background-color:blue;">ON</button>
+    <button onclick="switchOff()" style="background-color: red;">OFF</button>
+
+    <script>
+        const bulbing = document.getElementById("bulb");
+        
+        function switchOn(){
+            bulbing.src = 'lightbulb on.png'
+            bulbing.src.style.width ='30%'
+        }
+
+        function switchOff(){
+            bulbing.src = 'lightbulb.png'
+        
+        }
+    </script>
+    </center>
+</body>
+</html>

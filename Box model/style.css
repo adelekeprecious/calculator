@@ -1,0 +1,33 @@
+nav{
+margin: 8px;
+padding: 8px;
+box-sizing: border-box;
+}
+
+.homenav{
+    background-color: white;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, o, 1, 0.459);
+    padding: 10px;
+}
+
+.card1{
+    width: 300px;
+background-color: white;
+box-shadow:2px 2px 10px  rgba(0, o, 1, 0.459) ;
+padding: 20px;
+border-radius: 10px;
+}
+.card2{
+    width: 300px;
+background-color: white;
+box-shadow:2px 2px 10px  rgba(0, o, 1, 0.459) ;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+top: -200px;
+}
+
+section{
+ padding: 30px;   
+}

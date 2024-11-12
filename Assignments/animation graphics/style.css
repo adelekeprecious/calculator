@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: url(image/horizontal-view-of-asphalt-road-elevated-bridge-route-to-cut-through-the-main-road-background-of-trees-and-green-grass-vector\ \(2\).jpg);
+    height: 100vh;
+    background-size: contain;
+    align-items: center;
+}
+
+.car{
+    position: relative;
+    top: 1400px;
+    left: 1200px;
+    animation-name: drive;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.car3{
+    position: relative;
+    top: 1230px;
+    left: 1000px;
+    animation-timing-function: ease-in-out;
+    animation-name: drive;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 400px;
+    
+}
+
+.car4{
+    position: relative;
+    top: 647px;
+    left: 3200px;
+    animation-timing-function: ease-in-out;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.car5{
+    position: relative;
+    top: 367px;
+    left: 4500px;
+    animation-timing-function: ease-in-out;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.car6{
+    position: relative;
+    top: 630px;
+    left: 1100px;
+    animation-timing-function: ease-in-out;
+    animation-name: front;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.keke{
+    position: relative;
+    top: 1000px;
+    left: 1200px;
+    animation-name: drive;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.audio{
+    display: auto;
+    animation-duration: 10s;
+
+}
+
+@keyframes drive {
+    0%{
+        transform:translate(-1300px, 0px ) ;
+    }50%{
+        transform: translate(-1300px, 0px);
+    }70%{
+        transform: translate(1300px, 0px);
+}100%
+{
+    transform: translate(4300px, 0px);
+}
+}
+
+@keyframes move {
+    0%{
+        transform: translate(1300px,0px);
+    }50%{
+        transform: translate(-1300px,0px);
+    }100%{
+        transform: translate(-4500px,0px);
+    }
+    
+}
+
+@keyframes front {
+    0%{
+        transform: translate(60px,-100px);
+    }50%{
+        transform: translate(0px,200px);
+    }100%{
+        transform: translate(0px,500px)
+    }
+    
+}

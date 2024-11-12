@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div> <br>
+        <input style="width: 100px; height: 100px;" id="display" placeholder="0" width="300px">
+        <br><br>
+        <button onclick="displayFunction(1)">1</button>
+        <button onclick="displayFunction(2)">2</button>
+        <button onclick="displayFunction(3)">3</button>
+        <button onclick="displayFunction('+')">+</button>
+        
+        <button onclick="displayFunction(4)">4</button>
+        <button onclick="displayFunction(5)">5</button>
+        <button onclick="displayFunction(6)">6</button>
+        <button onclick="displayFunction('-')">-</button>
+        
+        <button onclick="displayFunction(7)">7</button>
+        <button onclick="displayFunction(8)">8</button>
+        <button onclick="displayFunction(9)">9</button>
+        <button onclick="displayFunction('/')">/</button>
+        
+        <button onclick="displayFunction(0)">0</button>
+        <button onclick="displayFunction('*')">*</button>
+        <button onclick="calculate('=')">=</button>
+        <button onclick="deleteFunction()">del</button>
+        <button onclick="clearFunction()">AC</button>
+    </div>
+    <script>
+
+        function displayFunction(number){
+            document.getElementById('display').value += number
+        }
+
+        function calculate(){
+            const calculation=document.getElementById('display')
+          .value;
+
+            const result=eval(calculation)
+            document.getElementById('display').value =result
+        }
+
+        function deleteFunction(){
+          let remove =  document.getElementById('display').value
+
+          let newNumber =remove.slice(0,-1)
+          document.getElementById('display').value =newNumber;
+
+        }
+
+        function clearFunction(){
+            let clear = document.getElementById('display').value
+            display.value=""
+
+        }
+
+
+
+    </script>
+</body>
+</html>

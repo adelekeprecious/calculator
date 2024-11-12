@@ -1,0 +1,19 @@
+display properties are css properties that helps us arrang and align the htm;l element in a certain way
+
+
+there are six display properties mainly
+
+1. inline
+2. block 
+3. inline-block
+4. flex 
+5. grid
+6. none
+
+element levels
+there are three element levels
+
+
+1. inline level element
+2. block level element
+3. inline-block level element

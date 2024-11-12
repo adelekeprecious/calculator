@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ordered list -->
+     <h1>Types of foods</h1>
+     <ol type="I">
+        <li>Garri</li>
+        <li>Yam</li>
+        <li>Rice</li>
+        <li>Beans</li>
+        <li>Spaghetti</li>
+        <li>Semo</li>
+
+     </ol>
+<h2>Sports</h2>
+     <ul>
+        <li>Football</li>
+        <li>Basketball</li>
+        <li>Table tennis</li>
+        <li>Boxing</li>
+     </ul>
+
+<dl>
+    <dt>Davido</dt>
+    <dd>001</dd>
+
+<ol>
+    <li>
+    <dt>Davido</dt>
+    <dd>001; rise by lifting others</dd> 
+    </li>
+    <li>
+        Wizkid
+        <dd>002; twitter boss</dd>
+    </li>
+</ol>
+
+</dl>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+Display properties are css properties that helps us arrange or align the html element in a certain way 
+
+
+
+we have six (6) display properties namely:
+
+1. inline
+2. block
+3. inline-block
+4. flex
+5. grid
+6. none
+
+
+
+element levels 
+================
+we have three levels
+
+1. inline level elements
+2. block level elements
+3. inline-block level elements

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bob{
+    background: linear-gradient(black);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    z-index: 99;
+}
+
+.signbtn button{
+background-color:white;
+color:black;
+border-radius: 20px;
+border: none;
+padding: 5px;
+width: 135px;
+}
+
+.words{
+background-image: linear-gradient(rgba(0, 0, 0, 0.613)20% rgba(0, 0, o, 0.607) 30% rgba(0,0,0,0.786)50%), url(.image.html/NG-en-20241021-TRIFECTA-perspective_5e07e90f-e509-48be-8c25-0ec586838c2f_medium.jpg);
+height: 500px;
+background-size: cover;
+border-radius: 30px;
+box-shadow: 2px 3px 10px white;
+border-left: 2px solid white;
+border-top: 2px solid white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.spc{
+    padding: 10px 50px;
+}

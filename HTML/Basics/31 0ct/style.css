@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: blue;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
+}
+
+.red{
+    background-color: red;
+    padding: 20px;
+    width: 100%;
+}
+
+.red2{
+    background-color: rgb(31, 11, 56);
+    padding: 20px;
+    width: 100%; 
+}
+
+.red3{
+    background-color: rgba(43, 5, 5, );
+    padding: 20px;
+    width: 100%;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+@media (max-width: 880px){}
+    p{
+        font-size: 15px;
+    }
+    section{
+        display: block;
+    }
+    .red{
+        height: 100vh;
+    }
+    .red2{
+        height: 100vh;
+    }
+    .red3{
+        height: 100vh;
+    }
+

@@ -1,0 +1,8 @@
+cascading style sheet css
+INLINE STYLING
+INTERNAL STYLING
+EXTERNAL STYLING
+
+inline styling is styling the element within  the element using the style attribute
+internal styling is styling the element within html document using the style tag
+external styling is styling the element within the working directory 

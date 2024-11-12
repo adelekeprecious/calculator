@@ -1,0 +1,18 @@
+p{
+    color: indianred;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.john{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: navy;
+    text-transform: lowercase;
+    color: black;
+    text-overflow: clip;
+    text: indent 20px; ;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 3px 3px 4px black;
+}

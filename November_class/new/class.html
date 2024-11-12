@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO TO JS</title>
+</head>
+<body>
+    <h3>welcome to java script</h3>
+<p id="display"></p>
+
+<input type="text" id="box">
+<!-- Event handlers - handles functions eg onclick -->
+ <button onclick="myFunc()">Click me</button>
+
+<div style="width:500px; height:250px; background-color:red ; margin-top: 10px;"
+id="hidenseek"></div>
+<button onclick="toggleAppear()">disappear</button>
+
+    <script>
+        //variables
+        //let,var,const-variable identifier
+        let student ='jamiu'
+        let num=6
+        let students =['oxford','wale','big_boss','Excel',5,6,7]
+
+        
+        //key-value pair
+        const studentsInfo ={
+            name:'oxford',
+            matricno:7899,
+            course:'Data science'
+        }
+
+        let check =true;
+
+        //data types -strings,number,array,object,boolean
+        // []-angle bracket ()-parenthesis {} -curly bracket
+
+        // Naming conventions
+        // 1. A variable cannot start with a number but it can be in the middle or at the end but never at the beggining
+        // 2. variable name cannot have a whitespace
+        const studentname = 'Adeleke'   // Casings in js
+        const nameofstudent='oxford'// camel casing
+        const NameOfStudent ='joy'// pascal casing
+        const name_of_student ='jerime'// snake casing
+        console.log(NameOfStudent)
+
+        // 3. A variable name cannot be the name of a javascript attribute
+        // const false=90;
+
+        // 4. A variable name should speak of what the value is
+        const name ='657'
+        //outputting variables
+        console.log('Janet',6,6,['joy'])
+        // alert('Welcome to SQI');
+
+        document.getElementById('display').innerHTML =
+        'WELCOME TO SQI' + '<br>';
+        document.getElementById('display').innerHTML +=
+        'Welcome to Day 2' + '<br>'
+        document.getElementById('display').innerText +=
+        'Another one' 
+        
+
+        // styling
+        document.getElementById('display').style.color = 'green';
+        document.getElementById('display').style.marginBottom= '50px'
+
+        
+        function myFunc() {
+            let boxValue = document.getElementById('box').value;
+        console.log(boxValue);
+
+        function toggleAppear(){
+
+        }
+
+        // console.log('i am big_boss')
+        }
+        function toggleAppear(){
+            document.getElementById('hidenseek').style.display ='none'
+        }
+
+
+
+    </script>
+</body>
+</html>
